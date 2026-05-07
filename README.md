@@ -1,6 +1,8 @@
 # BlockHub Activities Feature — Test Suite
 
-This is the Playwright + TypeScript automated test suite for the **Activities** feature of BlockHub — a blockchain/Web3 platform.
+> **Note:** This test suite is a *sample demonstration* created for assessment purposes. Testing was performed against a publicly accessible BlockHub documentation site (`https://blockhub-docs.up.railway.app`). The Activities feature tab referenced in the test plan may not exist or be accessible in the live BlockHub product environment. This suite demonstrates automated testing methodology, test case design, and CI integration — not production tests against a live deployment.
+
+---
 
 ## What Is Tested
 
@@ -15,7 +17,7 @@ The Activities feature allows users to participate in blockchain-related tasks, 
 - Unauthenticated user redirect/prompt behavior
 - Responsive rendering at desktop (1280×800) and mobile (375×667) viewports
 
-Activities was chosen as the initial test target because it represents the most user-facing entry point for engagement on the platform, covering UI rendering, navigation, authentication gating, and responsive design in a single cohesive feature area.
+Activities was chosen as the initial test target because it represents a high-value user-facing engagement point, covering UI rendering, navigation, authentication gating, and responsive design in a single cohesive feature area.
 
 ## Local Setup
 
